@@ -1,10 +1,10 @@
-title:            Jordi Pont-Tuset's site
+title:            Ms. Haiqin Wang's site
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              //jponttuset.github.io
+url:              //whq2605.github.io
 #http://localhost:5000
 #https://jponttuset.github.io
-disqus_shortname: jponttuset
+disqus_shortname: Haiqin
 
 # Owner/author information
 owner:
