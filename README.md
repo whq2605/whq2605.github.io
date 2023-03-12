@@ -1,5 +1,5 @@
 # Haiqin Wang's site
-This site is based on **[Jordi Pont-Tuset's site](https://github.com/jponttuset/jponttuset.github.io) and the **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)**, a two-column responsive Jekyll theme perfect for powering your GitHub hosted blog.
+This site is based on **[Jordi Pont-Tuset's site](https://github.com/jponttuset/jponttuset.github.io)** and the **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)**, a two-column responsive Jekyll theme perfect for powering your GitHub hosted blog.
 
 
 
