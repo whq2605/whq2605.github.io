@@ -15,6 +15,6 @@ You can also browse my <a href="https://scholar.google.com/citations?user=WXsYVf
 <h2>Preprints</h2>
 <ol>
 
-<li>Christina Kurzthaler*,#, <strong>Yongfeng Zhao</strong>*,#, Nan Zhou, Jana Schwarz-Linek, Clemence Devailly, Jochen Arlt, Jian-Dong Huang, Wilson C. K. Poon, Thomas Franosch, Julien Tailleur#, Vincent A. Martinez#, "<em>Characterization and Control of the Run-and-Tumble Dynamics of <it> Escherichia Coli </it></em>", arXiv:2212.11222 (2022).</li>
+<li>Jian Su#, <strong>Haiqin Wang</strong>#, Zhongyu Yan, Xinpeng XU* "<em>Spontaneous Bending of Hydra Tissue Fragments Driven by Supracellular Actomyosin Cables</it></em>", arXiv:2210.11696 (2022).</li>
 
-<a href="https://arxiv.org/abs/2212.11222">Preprint</a>
+<a href="https://arxiv.org/abs/2210.11696">Preprint</a>
