@@ -15,8 +15,8 @@ owner:
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   #twitter: jponttuset
   #linkedin: jponttuset
-  #google_scholar: WXsYVfsAAAAJ&hl=en
-  googlescholar    : "https://scholar.google.com/citations?user=WXsYVfsAAAAJ&hl=en"
+  google_scholar: https://scholar.google.com/citations?user=WXsYVfsAAAAJ&hl=en
+  #googlescholar    : "https://scholar.google.com/citations?user=WXsYVfsAAAAJ&hl=en"
   #google_plus: 113718226018314522413
   github: "whq2605"
 # Analytics and webmaster tools stuff goes here
@@ -38,7 +38,7 @@ links:
     url: /blog/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Zurich
+timezone:    Asia/Shanghai
 future:      true
 #pygments:    true
 highlighter: rouge
