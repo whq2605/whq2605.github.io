@@ -6,7 +6,7 @@ tags: [publications]
 comments: false
 ---
 
-You can also browse my <a href="http://scholar.google.es/citations?user=VCBBx24AAAAJ" target="_blank">Google Scholar profile</a>.
+You can also browse my <a href="https://scholar.google.com/citations?user=WXsYVfsAAAAJ&hl=en" target="_blank">Google Scholar profile</a>.
 
 *Authors contribute equally
 
