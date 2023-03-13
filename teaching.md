@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Teaching/
+permalink: /teaching/
 title: Teaching Experience
 tags: [teaching]
 comments: false
