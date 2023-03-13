@@ -2,8 +2,7 @@
 layout: page
 permalink: /Teaching/
 title: Teaching Experience
-tags: [code]
-modified: 3-10-2014
+tags: [teaching]
 comments: false
 ---
 
