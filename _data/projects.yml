@@ -1,52 +1,87 @@
 # Research Projects
 # Add/remove/edit projects here. Each project can link to one or more papers.
 
-- id: active_matter
-  title: "Active Matter & Run-and-Tumble Dynamics"
-  icon: "🦠"
+- id: polymer_simulation
+  title: "Polymer Solutions & Multiscale Simulation"
+  icon: "⚗️"
   description: >
-    Theoretical modeling of self-propelled particles, in particular run-and-tumble bacteria.
-    We study spreading dynamics in complex environments, collective behavior, and the
-    effective thermodynamics of these far-from-equilibrium systems.
-  tags: [active matter, biophysics, statistical physics]
+    My current work at Harvey Mudd develops hybrid adaptive particle–continuum
+    simulation methods for aqueous polymer solutions, and applies them to flow-driven
+    translocation of macromolecules across biological barriers such as the kidney
+    glomerular slit diaphragm.
+  tags: [polymer solutions, multiscale simulation, soft matter]
   papers:
-    - title: "Characterization and Control of the Run-and-Tumble Dynamics of Escherichia Coli"
+    - title: "Hybrid adaptive particle–continuum simulation method for aqueous solutions (in progress)"
       url: ""
-    - title: "Spreading of run-and-tumble bacteria in complex environments"
+
+- id: variational_methods
+  title: "Variational & Machine-Learning Methods for Soft Matter"
+  icon: "🧮"
+  description: >
+    Building theoretical and computational frameworks for non-equilibrium soft matter
+    based on Onsager's variational principle, combined with deep-learning solvers
+    (the deep Ritz and deep Onsager–Machlup methods) for active and elastic systems.
+  tags: [Onsager's variational principle, deep learning, active matter]
+  papers:
+    - title: "Onsager's variational principle in active soft matter — Soft Matter 17, 3634 (2021)"
+      url: ""
+    - title: "Variational methods and deep Ritz method for active elastic solids — Soft Matter 18, 6015 (2022)"
+      url: ""
+    - title: "Deep learning-based computational method for soft matter dynamics: Deep Onsager-Machlup method — arXiv:2308.14513"
+      url: "https://arxiv.org/abs/2308.14513"
+
+- id: cell_migration
+  title: "Cell Migration: Curvotaxis & Durotaxis"
+  icon: "🧫"
+  description: >
+    Phenomenological modeling of how cells move on solid substrates. We study the
+    persistent random walk paradigm, how substrate curvature biases migration inside
+    microcylinders, and how elastic interactions compete with motility to drive durotaxis.
+  tags: [cell migration, curvotaxis, durotaxis, persistent random walk]
+  papers:
+    - title: "Biphasic curvature-dependence of cell migration inside microcylinders — Biophys. J. 124(23), 4176 (2025)"
+      url: ""
+    - title: "Elastic interactions compete with persistent cell motility to drive durotaxis — Biophys. J. 123(21), 3721 (2024)"
+      url: ""
+    - title: "Phenomenological modeling of persistent random cell migration: a mini-review (in preparation)"
+      url: ""
+
+- id: biopolymer_gels
+  title: "Force Transmission in Biopolymer Gels"
+  icon: "🕸️"
+  description: >
+    Continuum elastic modeling of how cells transmit mechanical forces over long
+    ranges through fibrous biopolymer networks, including variational approximation
+    schemes for the resulting nonlinear elasticity problems.
+  tags: [biopolymer gels, elasticity, force transmission]
+  papers:
+    - title: "Continuum elastic models for force transmission in biopolymer gels — Soft Matter 16, 10781 (2020)"
+      url: ""
+    - title: "Variational approximation methods for long-range force transmission in biopolymer gels — Chin. Phys. B 31, 104602 (2022)"
       url: ""
 
 - id: tissue_mechanics
   title: "Tissue Mechanics & Morphogenesis"
-  icon: "🔬"
+  icon: "🪸"
   description: >
-    Mechanical modeling of biological tissues and their shape changes during development.
-    We investigate how supracellular cytoskeletal structures drive spontaneous curvature
-    and bending in epithelial tissues.
-  tags: [tissue mechanics, morphogenesis, biophysics]
+    Mechanical modeling of tissue-scale shape changes. We developed an active
+    laminated-plate model explaining the spontaneous bending of Hydra tissue fragments
+    driven by supracellular actomyosin bundles.
+  tags: [tissue mechanics, morphogenesis, active matter]
   papers:
-    - title: "Spontaneous Bending of Hydra Tissue Fragments Driven by Supracellular Actomyosin Cables"
+    - title: "Active laminated-plate model for spontaneous bending of Hydra tissue fragments — Commun. Phys. 6, 185 (2023)"
       url: "https://arxiv.org/abs/2210.11696"
 
-- id: pattern_formation
-  title: "Pattern Formation in Bacterial Systems"
-  icon: "🌀"
+- id: active_colloids
+  title: "Active Colloids & Wetting Dynamics"
+  icon: "💧"
   description: >
-    Studying how multi-component bacterial systems spontaneously organize into spatial
-    patterns through reaction-diffusion dynamics, motility-induced phase separation,
-    and ecological interactions.
-  tags: [pattern formation, bacteria, nonlinear dynamics]
+    Non-equilibrium dynamics of driven and active particles, including activity-assisted
+    barrier crossing of self-propelled colloids over microgrooves, and the deposition
+    patterns left by evaporating droplets with contact-line pinning.
+  tags: [active colloids, barrier crossing, wetting]
   papers:
-    - title: "Cooperative pattern formation of multi-component bacterial systems"
+    - title: "Activity-assisted barrier-crossing of self-propelled colloids over parallel microgrooves — Phys. Rev. E 107, L032601 (2023)"
       url: ""
-
-- id: systems_biology
-  title: "Nonequilibrium Statistical Physics & Systems Biology"
-  icon: "⚡"
-  description: >
-    Applying tools from nonequilibrium statistical mechanics to biological systems.
-    Topics include stochastic dynamics, active surface tensions, and the design
-    principles of biological regulatory networks.
-  tags: [statistical physics, systems biology, stochastic dynamics]
-  papers:
-    - title: "Surface tensions in active systems"
+    - title: "A phenomenological approach to the deposition pattern of evaporating droplets with contact line pinning — J. Phys.: Condens. Matter 30, 435001 (2018)"
       url: ""

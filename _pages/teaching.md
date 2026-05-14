@@ -7,7 +7,7 @@ permalink: /teaching/
 <div class="container">
 <div class="page-header">
   <h1>Teaching</h1>
-  <p>Courses taught and workshops organized across my academic career.</p>
+  <p>Courses and tutorials I have taught or co-taught.</p>
 </div>
 
 <!-- Harvey Mudd College -->
@@ -16,59 +16,32 @@ permalink: /teaching/
   <ul class="course-list">
     <li class="course-item">
       <div>
-        <div class="course-title"><!-- Course name here --></div>
-        <div class="course-role">Instructor / Teaching Assistant</div>
+        <div class="course-title">Chem 161: Classical and Statistical Thermodynamics</div>
+        <div class="course-role">Co-instructor</div>
         <div class="course-desc">
-          <!-- Brief description of the course -->
+          Undergraduate course covering the laws of thermodynamics, thermodynamic potentials,
+          and the foundations of statistical mechanics.
         </div>
       </div>
-      <div class="course-term">2025–present</div>
+      <div class="course-term">Spring 2026</div>
     </li>
   </ul>
 </div>
 
-<!-- Soochow University -->
+<!-- Guangdong Technion -->
 <div style="margin-bottom: 3rem;">
-  <div class="section-title">Soochow University</div>
+  <div class="section-title">Guangdong Technion – Israel Institute of Technology</div>
   <ul class="course-list">
     <li class="course-item">
       <div>
-        <div class="course-title">Theoretical Physics</div>
-        <div class="course-role">Instructor</div>
+        <div class="course-title">Physics 2 Tutorial</div>
+        <div class="course-role">Teaching Assistant / Tutor</div>
         <div class="course-desc">
-          Graduate and undergraduate courses covering classical mechanics, electrodynamics,
-          quantum mechanics, and statistical mechanics.
+          Tutorial sessions on electromagnetism and problem-solving for undergraduate
+          physics and engineering students (2020 session delivered virtually).
         </div>
       </div>
-      <div class="course-term">2021–2024</div>
-    </li>
-    <li class="course-item">
-      <div>
-        <div class="course-title">Nonequilibrium Statistical Physics</div>
-        <div class="course-role">Instructor</div>
-        <div class="course-desc">
-          Advanced graduate course on stochastic processes, fluctuation theorems, and
-          applications to biological systems.
-        </div>
-      </div>
-      <div class="course-term">2022–2024</div>
-    </li>
-  </ul>
-</div>
-
-<!-- Workshops / Schools -->
-<div style="margin-bottom: 3rem;">
-  <div class="section-title">Workshops &amp; Outreach</div>
-  <ul class="course-list">
-    <li class="course-item">
-      <div>
-        <div class="course-title">Physics 2 Workshop</div>
-        <div class="course-role">Organizer / Instructor</div>
-        <div class="course-desc">
-          Workshop session on electromagnetic theory and problem-solving for physics students.
-        </div>
-      </div>
-      <div class="course-term">Technion, 2018</div>
+      <div class="course-term">2019, 2020, 2023</div>
     </li>
   </ul>
 </div>
@@ -76,9 +49,10 @@ permalink: /teaching/
 <!-- Philosophy note -->
 <div style="padding: 1.5rem; background: var(--card-bg); border-radius: var(--radius); font-size: 0.92rem; color: var(--muted); border-left: 4px solid var(--primary);">
   <strong style="color: var(--dark);">Teaching philosophy:</strong>
-  I believe in connecting physical intuition to mathematical formalism, and in making the
-  deep beauty of statistical physics accessible to students with diverse backgrounds.
-  <!-- Edit or expand this section -->
+  I aim to connect physical intuition with mathematical formalism, and to make the
+  ideas of thermodynamics and statistical mechanics accessible to students from
+  diverse scientific backgrounds.
+  <!-- Edit or expand this section as you like -->
 </div>
 
 </div>

@@ -8,8 +8,9 @@ permalink: /research/
 <div class="page-header">
   <h1>Research</h1>
   <p>
-    My research lies at the interface of statistical physics and biology, focused on understanding
-    collective and emergent phenomena in living systems far from thermodynamic equilibrium.
+    My research applies theory and simulation to soft and biological matter — polymer solutions,
+    biopolymer gels, cell migration, and active matter — grounded in non-equilibrium
+    statistical mechanics and variational principles.
   </p>
 </div>
 
@@ -45,10 +46,11 @@ permalink: /research/
 <div style="padding: 2rem 0; border-top: 1px solid var(--border);">
   <div class="section-title">Collaborators</div>
   <p style="color: var(--muted); font-size: 0.92rem;">
-    <!-- List your key collaborators here -->
-    I collaborate with researchers across biophysics, soft matter, and mathematical biology.
-    Key collaborators include Prof. Xinpeng Xu (GTIIT), Prof. Yariv Kafri (Technion),
-    and Dr. Julien Tailleur (Paris Diderot).
+    I am fortunate to work with collaborators across soft matter, biophysics, and applied
+    mathematics, including Prof. Bilin Zhuang (Harvey Mudd College), Prof. Xinpeng Xu and
+    Prof. Yariv Kafri (Technion), Prof. Tiezheng Qian and Prof. Penger Tong (HKUST),
+    Prof. Masao Doi and Prof. Shigeyuki Komura (Wenzhou Institute), Prof. Dadong Yan
+    (Beijing Normal University), and Prof. Kinjal Dasbiswas and Prof. Arvind Gopinath (UC Merced).
   </p>
 </div>
 

@@ -12,7 +12,8 @@ title: Home
 
   <div class="profile-name">Haiqin Wang</div>
   <div class="profile-position">
-    Postdoc Research Scholar<br>
+    Postdoctoral Researcher<br>
+    Department of Chemistry<br>
     Harvey Mudd College
   </div>
 
@@ -64,20 +65,23 @@ title: Home
 
   <div class="about-text">
     <p>
-      I am a Postdoc Research Scholar at <strong>Harvey Mudd College</strong>.
-      My research focuses on theoretical biophysics and statistical physics, with emphasis on
-      active matter, nonequilibrium dynamics, and their applications to biological systems.
+      I am a postdoctoral researcher in the <strong>Department of Chemistry</strong> at
+      <strong>Harvey Mudd College</strong>, working with Prof. Bilin Zhuang.
+      My research uses theory and simulation to understand soft and biological matter —
+      from polymer solutions and biopolymer gels to cell migration and active matter —
+      through the lens of non-equilibrium statistical mechanics.
     </p>
     <p>
-      I received my Ph.D. in Physics from <strong>The University of Hong Kong</strong> (2016),
-      where I studied run-and-tumble motion and differential dynamic microscopy under
-      Prof. Huang Jian-Dong and Dr. Julien Tailleur.
-      Before joining Harvey Mudd, I was an Associate Professor at Soochow University
-      and held postdoctoral positions at Shanghai Jiao Tong University and Université Paris Diderot.
+      I received my Ph.D. in Physics from the <strong>Technion – Israel Institute of Technology</strong>
+      in 2024, advised by Prof. Xinpeng Xu and Prof. Yariv Kafri. I earned my M.Sc. from
+      Beijing Normal University and my B.Sc. from Capital Normal University, and was a visiting
+      student in mathematics at HKUST. Most recently, I was a research assistant at the
+      Wenzhou Institute, working with Prof. Masao Doi and Prof. Shigeyuki Komura.
     </p>
     <p>
-      <!-- Add a sentence about your current research focus at HMC -->
-      Currently, I am working on [brief description of your current research project at HMC].
+      At Harvey Mudd, I am developing hybrid particle–continuum simulation methods for aqueous
+      polymer solutions and studying the flow-driven translocation of macromolecules across
+      biological barriers, such as the kidney glomerular slit diaphragm.
     </p>
   </div>
 
@@ -85,13 +89,13 @@ title: Home
   <div style="margin-bottom: 2.5rem;">
     <div class="section-title">Research Interests</div>
     <ul class="interests-list">
+      <li class="interest-tag">Polymer Solutions: Theory &amp; Simulation</li>
+      <li class="interest-tag">Soft &amp; Biological Matter Physics</li>
+      <li class="interest-tag">Non-equilibrium Statistical Mechanics</li>
+      <li class="interest-tag">Variational &amp; Machine-Learning Methods</li>
+      <li class="interest-tag">Cell Migration</li>
       <li class="interest-tag">Active Matter</li>
-      <li class="interest-tag">Nonequilibrium Statistical Physics</li>
-      <li class="interest-tag">Biological Physics</li>
-      <li class="interest-tag">Pattern Formation</li>
-      <li class="interest-tag">Tissue Mechanics</li>
-      <li class="interest-tag">Systems Biology</li>
-      <li class="interest-tag">Stochastic Dynamics</li>
+      <li class="interest-tag">Multiscale Simulation</li>
     </ul>
   </div>
 
@@ -100,22 +104,30 @@ title: Home
     <div class="section-title">News</div>
     <ul class="news-list">
       <li class="news-item">
-        <span class="news-date">2025</span>
-        <span class="news-text">Joined Harvey Mudd College as a Postdoc Research Scholar.</span>
+        <span class="news-date">2026</span>
+        <span class="news-text">Co-teaching Chem 161: Classical and Statistical Thermodynamics at Harvey Mudd College (Spring 2026).</span>
       </li>
       <li class="news-item">
-        <span class="news-date">2022</span>
+        <span class="news-date">2026</span>
+        <span class="news-text">Presenting a poster at the Berkeley Statistical Mechanics Meeting, UC Berkeley.</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2025</span>
         <span class="news-text">
-          Preprint: "<a href="https://arxiv.org/abs/2210.11696" target="_blank">Spontaneous Bending of Hydra Tissue Fragments Driven by Supracellular Actomyosin Cables</a>" posted on arXiv.
+          New paper in <em>Biophysical Journal</em>:
+          "Biphasic curvature-dependence of cell migration inside microcylinders."
         </span>
       </li>
       <li class="news-item">
-        <span class="news-date">2022</span>
-        <span class="news-text">Invited talk at the 12th National Conference on Soft Matter and Biological Physics.</span>
+        <span class="news-date">2025</span>
+        <span class="news-text">Joined Harvey Mudd College as a postdoctoral researcher in the Department of Chemistry.</span>
       </li>
       <li class="news-item">
-        <span class="news-date">2021</span>
-        <span class="news-text">Invited talk at Xiamen Soft Matter Forum 2021 &amp; ICAM-China 2021.</span>
+        <span class="news-date">2024</span>
+        <span class="news-text">
+          New paper in <em>Biophysical Journal</em>:
+          "Elastic interactions compete with persistent cell motility to drive durotaxis."
+        </span>
       </li>
       <!-- Add more news items here -->
     </ul>

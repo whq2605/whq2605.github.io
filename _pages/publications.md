@@ -47,6 +47,11 @@ permalink: /publications/
         <em>{{ pub.journal }}</em>{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}{% if pub.year %} ({{ pub.year }}){% endif %}
       </div>
       <div class="pub-links">
+        {% if pub.note %}
+        <span class="pub-badge" style="border-color: var(--muted); color: var(--muted); text-transform: capitalize;">
+          {{ pub.note }}
+        </span>
+        {% endif %}
         {% if pub.pdf %}
         <a class="pub-badge" href="{{ pub.pdf | relative_url }}" target="_blank">
           <i class="fas fa-file-pdf"></i> PDF
