@@ -1,69 +1,53 @@
-title:            Ms. Haiqin Wang's site
-description:      PhD Candidate at Technion.
-# Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              //whq2605.github.io
-#http://localhost:5000
-#https://whq2605.github.io
-disqus_shortname: Haiqin
+title: Haiqin Wang
+description: Postdoc Research Scholar at Harvey Mudd College
+url: "https://whq2605.github.io"
+baseurl: ""
 
-# Owner/author information
-owner:
-  name:           Haiqin Wang
-  avatar:         Haiqin.jpg
-  bio:            I'm a PhD Candidate in Physics department at Technion
-  email:          cloverwhq@gmail.com
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  #twitter: jponttuset
-  #linkedin: jponttuset
-  google_scholar: https://scholar.google.com/citations?user=WXsYVfsAAAAJ&hl=en
-  #googlescholar    : "https://scholar.google.com/citations?user=WXsYVfsAAAAJ&hl=en"
-  #google_plus: 113718226018314522413
+# Author info
+author:
+  name: Haiqin Wang
+  position: Postdoc Research Scholar
+  institution: Harvey Mudd College
+  department: ""
+  email: haiwang@g.hmc.edu
+  google_scholar: "https://scholar.google.com/citations?user=WXsYVfsAAAAJ&hl=en"
   github: "whq2605"
-# Analytics and webmaster tools stuff goes here
-#google_analytics: UA-52736040-1
-#google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify:
+  orcid: ""
+  twitter: ""
+  avatar: /assets/img/profile.jpg
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: Curriculum
-    url: /cv/
+# Navigation links
+nav_links:
+  - title: Research
+    url: /research/
   - title: Publications
     url: /publications/
-  #- title: Code
-  #  url: /code/
   - title: Teaching
     url: /teaching/
-  #- title: Blog
-  #  url: /blog/
+  - title: Notes
+    url: /notes/
+  - title: CV
+    url: /assets/pdf/CV.pdf
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Shanghai
-future:      true
-#pygments:    true
+# Jekyll build settings
+markdown: kramdown
 highlighter: rouge
-markdown:    kramdown
+permalink: /:categories/:title/
+timezone: America/Los_Angeles
+
+# Include _pages in processing
+include: ["_pages"]
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "*.gem"
+  - scripts/
+  - README.md
+  - vendor/
+
+# Kramdown settings
 kramdown:
-  extensions: ["strikethrough"]
-  
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-syntax_highlighter_opts:
-  line_numbers:
-  line_numbers_start: 1
-  tab_width: 4
-  bold_every: 10
-  css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+  input: GFM
+  syntax_highlighter: rouge

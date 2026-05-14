@@ -1,0 +1,52 @@
+# Research Projects
+# Add/remove/edit projects here. Each project can link to one or more papers.
+
+- id: active_matter
+  title: "Active Matter & Run-and-Tumble Dynamics"
+  icon: "🦠"
+  description: >
+    Theoretical modeling of self-propelled particles, in particular run-and-tumble bacteria.
+    We study spreading dynamics in complex environments, collective behavior, and the
+    effective thermodynamics of these far-from-equilibrium systems.
+  tags: [active matter, biophysics, statistical physics]
+  papers:
+    - title: "Characterization and Control of the Run-and-Tumble Dynamics of Escherichia Coli"
+      url: ""
+    - title: "Spreading of run-and-tumble bacteria in complex environments"
+      url: ""
+
+- id: tissue_mechanics
+  title: "Tissue Mechanics & Morphogenesis"
+  icon: "🔬"
+  description: >
+    Mechanical modeling of biological tissues and their shape changes during development.
+    We investigate how supracellular cytoskeletal structures drive spontaneous curvature
+    and bending in epithelial tissues.
+  tags: [tissue mechanics, morphogenesis, biophysics]
+  papers:
+    - title: "Spontaneous Bending of Hydra Tissue Fragments Driven by Supracellular Actomyosin Cables"
+      url: "https://arxiv.org/abs/2210.11696"
+
+- id: pattern_formation
+  title: "Pattern Formation in Bacterial Systems"
+  icon: "🌀"
+  description: >
+    Studying how multi-component bacterial systems spontaneously organize into spatial
+    patterns through reaction-diffusion dynamics, motility-induced phase separation,
+    and ecological interactions.
+  tags: [pattern formation, bacteria, nonlinear dynamics]
+  papers:
+    - title: "Cooperative pattern formation of multi-component bacterial systems"
+      url: ""
+
+- id: systems_biology
+  title: "Nonequilibrium Statistical Physics & Systems Biology"
+  icon: "⚡"
+  description: >
+    Applying tools from nonequilibrium statistical mechanics to biological systems.
+    Topics include stochastic dynamics, active surface tensions, and the design
+    principles of biological regulatory networks.
+  tags: [statistical physics, systems biology, stochastic dynamics]
+  papers:
+    - title: "Surface tensions in active systems"
+      url: ""

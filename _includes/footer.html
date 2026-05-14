@@ -1,0 +1,12 @@
+<footer>
+  <div class="container">
+    <span>© {{ 'now' | date: '%Y' }} {{ site.author.name }}</span>
+    <span>
+      Built with <a href="https://jekyllrb.com">Jekyll</a> ·
+      Hosted on <a href="https://pages.github.com">GitHub Pages</a>
+      {% if site.author.google_scholar %}·
+      <a href="{{ site.author.google_scholar }}" target="_blank">Google Scholar</a>
+      {% endif %}
+    </span>
+  </div>
+</footer>
