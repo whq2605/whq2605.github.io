@@ -16,6 +16,8 @@
   journal: "Biophysical Journal"
   volume: "124(23)"
   pages: "4176-4188"
+  doi: "10.1016/j.bpj.2025.10.003"
+  url: "https://doi.org/10.1016/j.bpj.2025.10.003"
   featured: true
 
 - title: "Phenomenological modeling of persistent random cell migration: a mini-review"
@@ -30,6 +32,8 @@
   journal: "Biophysical Journal"
   volume: "123(21)"
   pages: "3721-3735"
+  doi: "10.1016/j.bpj.2024.09.021"
+  url: "https://doi.org/10.1016/j.bpj.2024.09.021"
 
 - title: "Active laminated-plate model for spontaneous bending of Hydra tissue fragments driven by supracellular actomyosin bundles"
   authors: "J. Su+, **Haiqin Wang**+, Z. Yan, X. Xu*"
@@ -38,6 +42,8 @@
   volume: "6"
   pages: "185"
   arxiv: "2210.11696"
+  doi: "10.1038/s42005-023-01307-9"
+  url: "https://www.nature.com/articles/s42005-023-01307-9"
   featured: true
 
 - title: "Activity-assisted barrier-crossing of self-propelled colloids over parallel microgrooves"
@@ -46,12 +52,16 @@
   journal: "Physical Review E"
   volume: "107"
   pages: "L032601"
+  doi: "10.1103/PhysRevE.107.L032601"
+  url: "https://doi.org/10.1103/PhysRevE.107.L032601"
 
 - title: "Deep learning-based computational method for soft matter dynamics: Deep Onsager-Machlup method"
   authors: "Z. Li+, B. Zou+, **Haiqin Wang**, J. Su, D. Wang*, X. Xu*"
   year: 2023
   journal: "Communications in Computational Physics (accepted)"
   arxiv: "2308.14513"
+  doi: "10.48550/arXiv.2308.14513"
+  url: "https://arxiv.org/abs/2308.14513"
   note: "accepted"
 
 - title: "Variational methods and deep Ritz method for active elastic solids"
@@ -60,6 +70,8 @@
   journal: "Soft Matter"
   volume: "18"
   pages: "6015-6031"
+  doi: "10.1039/D2SM00404F"
+  url: "https://doi.org/10.1039/D2SM00404F"
 
 - title: "Variational approximation methods for long-range force transmission in biopolymer gels"
   authors: "**Haiqin Wang**, X. Xu*"
@@ -67,6 +79,8 @@
   journal: "Chinese Physics B"
   volume: "31(10)"
   pages: "104602"
+  doi: "10.1088/1674-1056/ac720a"
+  url: "https://doi.org/10.1088/1674-1056/ac720a"
 
 - title: "Onsager's variational principle in active soft matter"
   authors: "**Haiqin Wang**, T. Qian, X. Xu*"
@@ -74,6 +88,8 @@
   journal: "Soft Matter"
   volume: "17"
   pages: "3634-3653"
+  doi: "10.1039/D0SM02076A"
+  url: "https://doi.org/10.1039/D0SM02076A"
   featured: true
 
 - title: "Continuum elastic models for force transmission in biopolymer gels"
@@ -82,6 +98,8 @@
   journal: "Soft Matter"
   volume: "16"
   pages: "10781-10808"
+  doi: "10.1039/D0SM01451F"
+  url: "https://doi.org/10.1039/D0SM01451F"
 
 - title: "A phenomenological approach to the deposition pattern of evaporating droplets with contact line pinning"
   authors: "**Haiqin Wang**, D. Yan, T. Qian*"
@@ -89,6 +107,8 @@
   journal: "Journal of Physics: Condensed Matter"
   volume: "30"
   pages: "435001"
+  doi: "10.1088/1361-648X/aae1dc"
+  url: "https://doi.org/10.1088/1361-648X/aae1dc"
 
 # -- Add more papers above this line --
 # The GitHub Action (update-papers.yml) appends newly found papers from

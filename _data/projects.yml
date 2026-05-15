@@ -24,9 +24,9 @@
   tags: [Onsager's variational principle, deep learning, active matter]
   papers:
     - title: "Onsager's variational principle in active soft matter — Soft Matter 17, 3634 (2021)"
-      url: ""
+      url: "https://doi.org/10.1039/D0SM02076A"
     - title: "Variational methods and deep Ritz method for active elastic solids — Soft Matter 18, 6015 (2022)"
-      url: ""
+      url: "https://doi.org/10.1039/D2SM00404F"
     - title: "Deep learning-based computational method for soft matter dynamics: Deep Onsager-Machlup method — arXiv:2308.14513"
       url: "https://arxiv.org/abs/2308.14513"
 
@@ -40,9 +40,9 @@
   tags: [cell migration, curvotaxis, durotaxis, persistent random walk]
   papers:
     - title: "Biphasic curvature-dependence of cell migration inside microcylinders — Biophys. J. 124(23), 4176 (2025)"
-      url: ""
+      url: "https://doi.org/10.1016/j.bpj.2025.10.003"
     - title: "Elastic interactions compete with persistent cell motility to drive durotaxis — Biophys. J. 123(21), 3721 (2024)"
-      url: ""
+      url: "https://doi.org/10.1016/j.bpj.2024.09.021"
     - title: "Phenomenological modeling of persistent random cell migration: a mini-review (in preparation)"
       url: ""
 
@@ -56,9 +56,9 @@
   tags: [biopolymer gels, elasticity, force transmission]
   papers:
     - title: "Continuum elastic models for force transmission in biopolymer gels — Soft Matter 16, 10781 (2020)"
-      url: ""
+      url: "https://doi.org/10.1039/D0SM01451F"
     - title: "Variational approximation methods for long-range force transmission in biopolymer gels — Chin. Phys. B 31, 104602 (2022)"
-      url: ""
+      url: "https://doi.org/10.1088/1674-1056/ac720a"
 
 - id: tissue_mechanics
   title: "Tissue Mechanics & Morphogenesis"
@@ -70,7 +70,7 @@
   tags: [tissue mechanics, morphogenesis, active matter]
   papers:
     - title: "Active laminated-plate model for spontaneous bending of Hydra tissue fragments — Commun. Phys. 6, 185 (2023)"
-      url: "https://arxiv.org/abs/2210.11696"
+      url: "https://www.nature.com/articles/s42005-023-01307-9"
 
 - id: active_colloids
   title: "Active Colloids & Wetting Dynamics"
@@ -82,6 +82,6 @@
   tags: [active colloids, barrier crossing, wetting]
   papers:
     - title: "Activity-assisted barrier-crossing of self-propelled colloids over parallel microgrooves — Phys. Rev. E 107, L032601 (2023)"
-      url: ""
+      url: "https://doi.org/10.1103/PhysRevE.107.L032601"
     - title: "A phenomenological approach to the deposition pattern of evaporating droplets with contact line pinning — J. Phys.: Condens. Matter 30, 435001 (2018)"
-      url: ""
+      url: "https://doi.org/10.1088/1361-648X/aae1dc"

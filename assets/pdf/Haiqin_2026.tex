@@ -1,0 +1,310 @@
+% Document class and font size
+\documentclass[a4paper,10pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+% \geometry{letterpaper, margin=0.6in} % Set paper size and margins
+\geometry{letterpaper, margin=0.6in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+% \usepackage{hyperref} % For hyperlinks
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0,0,0.6}
+\definecolor{darkred}{rgb}{0.6,0,0}
+\definecolor{darkgreen}{rgb}{0,0.6,0}
+\usepackage[colorlinks=true,urlcolor=darkblue,citecolor=darkblue,linkcolor=darkred,hyperfootnotes=false]{hyperref}
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+%%%%%%%%%%
+\usepackage{fontsize}
+
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead{}
+\fancyhead[L]{Haiqin Wang}
+\fancyhead[R]{Aug. 2024}
+\thispagestyle{empty} % Remove header from the first page
+
+% Header
+
+\begin{flushleft}
+\textbf{\Large Haiqin Wang} \\[2pt] % Name
+Department of Chemistry, Harvey Mudd College,
+301 Platt Blvd., Claremont, CA 91711, USA
+% Department of Physics, Technion - Israel Institute of Technology, Haifa, Israel \\
+% \href{mailto:cloverwhq@gmail.com}{cloverwhq@gmail.com} | \quad 
+% \href{tel:86-13810329150}{86-13810329150} | \quad 
+% \href{https://orcid.org/0000-0002-4969-220X}{orcid.org/0000-0002-4969-220X} |\textbf{Google Scholar:} \href{https://scholar.google.com/citations?user=WXsYVfsAAAAJ&hl=en&inst=5076179728209038089}{Haiqin Wang}\\
+
+\makebox[40em][l]{\textbf{Email:} \href{mailto:cloverwhq@gmail.com}{cloverwhq@gmail.com} \hfill
+ \textbf{ORCID:} \href{https://orcid.org/0000-0002-4969-220X}{orcid.org/0000-0002-4969-220X}}\\
+\makebox[36em][l]{\textbf{Phone:} \href{tel:86-13810329150}{086-13810329150} \hfill
+\textbf{Google Scholar:} \href{https://scholar.google.com/citations?user=WXsYVfsAAAAJ&hl=en&inst=5076179728209038089}{Haiqin Wang}}
+%| \href{https://JohnDoe/en/staff/single/59}{Organization page} % Contact info
+\end{flushleft}
+
+\vspace{-0.4em}
+% Education Section
+\section*{RESEARCH INTERESTS}
+\vspace{-0.9em}
+\noindent
+\begin{itemize}[leftmargin=*]
+\item Theory and simulation of polymer solutions
+\item Biological and soft matter Physics
+\item Statistical mechanics and non-equilibrium fluctuations
+\end{itemize}
+% Education Section
+
+\vspace{0.1em}
+\section*{EDUCATION}
+\noindent
+\textbf{Technion - Israel Institute of Technology}, Haifa, Israel \hfill Oct. 2018 | May. 2024 \\ % University name and location
+Ph.D., Department of Physics  \hfill Advisors: Prof. Xinpeng Xu and Prof. Yariv Kafri
+\\Dissertation Title: ``" 
+ 
+\noindent\\
+\textbf{Hong Kong University of Science and Technology}, Hongkong, China \hfill Oct. 2016 | Mar. 2018\\ % University name and location
+Visiting Student, Department of Mathematics \hfill Advisor: Prof. Tiezheng Qian 
+
+\noindent\\
+\textbf{Beijing Normal University}, Beijing, China \hfill Sep. 2015 | Jul. 2018 \\ % University name and location
+M.Sc., Department of Physics \hfill Advisor: Prof. Dadong Yan 
+\\Dissertation Title: 
+
+\noindent\\
+\textbf{Capital Normal University}, Beijing, China \hfill Sep. 2011 | Jul. 2015 \\ % University name and location
+B.Sc., Department of Physics \hfill Advisor: Prof. Yunsong Zhou 
+\vspace{0.6em}
+\\ Dissertation Title: ``The Edge Effect of Finite Honeycomb Lattice Ising Model"
+
+
+\section*{APPOINTMENTS}
+\textbf{Harvey Muddd College}, Claremont, USA \hfill Feb. 2025 |  Present \\ % University name and location
+Postdoc, Department of Chemistry \hfill Advisor: Prof. Bilin Zhuang 
+
+\noindent\\
+\textbf{Wenzhou Institute}, Zhejiang, China \hfill Mar. 2024 | Dec. 2024 \\ % University name and location
+ Research Assistant \hfill Advisors: Prof. Masao Doi \& Prof. Shigeyuki Komura
+
+\vspace{0.6em}
+\section*{TEACHING}
+\textbf{Physic 2 Tutorial} at Guangdong Technion Israel Institute of Technology \hfill 2019, 2020 (Virtual), 2023
+
+\noindent\\
+\textbf{Chem 161: Classical and Statistical Thermodynamics} Co-teach at Harvey Mudd College \hfill 2026 Spring
+
+\vspace{0.6em}
+\section*{PUBLICATIONS}
+\noindent
+%\textbf{Journal paper}\\
+%\textup{\# You can use some options here such as: In-Progress, Submitted, reviewed, Published}% Project name and location
+\textsuperscript{\textbf{\textdagger}} Authors contribute equally, *Corresponding authors
+\noindent
+\begin{itemize}[leftmargin=*]
+\setlength{\itemsep}{0.2cm}
+\item \textbf{H. Wang}, T. Qian, X. Xu*, Onsager’s variational principle in
+active soft matter, 
+\href{https://doi.org/10.1039/D0SM02076A}{\emph{Soft Matter}, 17, 3634-3653 (2021)}
+\item \textbf{H. Wang}, X. Xu*, Continuum elastic models for force transmission in
+biopolymer gels,
+\href{https://doi.org/10.1039/D0SM01451F}{\textit{Soft Matter}, 16, 10781-10808 (2020)}
+
+\item \textbf{H. Wang}, B. Zou, J. Su, D. Wang, X. Xu* Variational methods and deep Ritz method for active elastic solids,
+\href{https://doi.org/10.1039/D2SM00404F}{\textit{Soft Matter}, 18, 6015-6031 (2022)}
+
+\item \textbf{H. Wang}, X. Xu*, Variational approximation methods for long-range force transmission in biopolymer gels,
+\href{https://doi.org/10.1088/1674-1056/ac720a}{\textit{Chin. Phys. B}, 31 (10), 104602 (2022)}
+
+\item X., Yu\textsuperscript{\textbf{\textdagger}} (Exp.), \textbf{H. Wang}\textsuperscript{\textbf{\textdagger}} (Theory), F. Ye, X. Wang*, Q. Fan*, X. Xu*, 
+Biphasic curvature-dependence of cell migration inside microcylinders: persistent randomness versus directionality, 
+\href{https://doi.org/10.1016/j.bpj.2025.10.003}{\emph{Biophys. J. 124(23), 4176-4188} (2025).}
+
+\item \textbf{H. Wang}, D. Yan, T. Qian*, A phenomenological approach to the deposition pattern of evaporating droplets with contact line pinning, 
+\href{https://doi.org/10.1088/1361-648X/aae1dc}{\emph{Journal of Physics: Condensed Matter}, 30, 435001 (2018)} 
+
+\item J. Su\textsuperscript{\textbf{\textdagger}}, \textbf{H. Wang}\textsuperscript{\textbf{\textdagger}}, Z. Yan, X. Xu*, Active laminated-plate model for spontaneous bending of Hydra tissue fragments driven by supracellular actomyosin bundles,
+\href{https://www.nature.com/articles/s42005-023-01307-9}{\emph{Commun. Phys.} 6, 185. (2023)}
+
+\item Y. Wen\textsuperscript{\textbf{\textdagger}}, Z. Li\textsuperscript{\textbf{\textdagger}}, \textbf{H. Wang}, J. Zheng, J. Tang, P. Lai*, X. Xu*, P. Tong*, Activity-assisted barrier-crossing of self-propelled colloids over parallel microgrooves, 
+\href{https://doi.org/10.1103/PhysRevE.107.L032601}{\emph{Phys. Rev. E}, 107, L032601 (2023)}
+
+\item Z. Li\textsuperscript{\textbf{\textdagger}},
+B. Zou\textsuperscript{\textbf{\textdagger}}, \textbf{H. Wang}, J. Su, D. Wang*, and X. Xu*, Deep
+learning-based computational method for soft matter dynamics: Deep Onsager-Machlup method \href{https://doi.org/10.48550/arXiv.2308.14513}{arXiv:2308.14513}, \textit{Communications in Computational Physics}, accepted
+
+\item S. Bose, \textbf{H. Wang}, 
+X. Xu*, A. Gopinath* and K. Dasbiswas*, Elastic interactions compete with persistent cell motility to drive durotaxis, 
+\href{https://doi.org/10.1016/j.bpj.2024.09.021}{\emph{Biophys. J.}, 123(21), 3721-3735(2024)}
+
+\item \textbf{H. Wang}\textsuperscript{\textbf{\textdagger}},
+Z. Shen\textsuperscript{\textbf{\textdagger}}, X. Xu*, Phenomenological Modeling of Persistent Random Cell Migration: A Mini-review, in preparation
+\end{itemize}
+
+% \section*{SELECTED COURSES}
+%     \begin{tabularx}{1\textwidth}{
+%     >{\raggedright\arraybackslash}X 
+%    >{\raggedright\arraybackslash}X }
+%       \textbf{Master's Courses}&   \textbf{Bachelor's Courses}\\ 
+%      \begin{itemize}
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%      \end{itemize}
+%      & \begin{itemize}
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%               \end{itemize}\\
+%          \textbf{Additional Courses}
+%          \begin{itemize}
+%          \item \# Course that worth mentioning for committee
+%          \item \# Course that worth mentioning for committee
+%      \end{itemize}
+%     \end{tabularx}
+\pagenumbering{}
+\vspace{0.05em}
+
+\section*{PRESENTATIONS}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Berkeley Statistical Mechanics Meeting, University of California, Berkeley, CA, USA }  \hfill Jan. 8-11, 2026 \\
+Hybrid Adaptive Particle-Continuum Simulation Method for Aqueous Solution \hfill[Poster]\\
+
+\item \textbf{Frontiers in Soft Matter and Macromolecular Networks, University of San Diego, CA, USA }  \hfill Sep. 9, 2025 \\
+Flow-driven translocation of macromolecules across the slit diaphragm in the kidney glomerulus \hfill[Poster]\\
+
+\item \textbf{APS Global Physics Summit, Anaheim, CA, USA }  \hfill March 16-21, 2025 \\
+Persistent random walk: a phenomenological paradigm for cell migration on solid substrates \hfill[Poster]\\
+
+\item \textbf{Boulder Summer School 2024: Self-Organizing Matter, Boulder, USA }  \hfill July 1-26, 2024 \\
+Persistent random walk: a phenomenological paradigm for cell migration on solid substrates \hfill[Poster]\\
+
+\item 
+\textbf{Persistent random walk: a phenomenological paradigm for cell migration} \hfill Jan. 2024 \\ \textbf{on solid substrates}\\  
+Core-to-core network for the physics of self-organizing active matter, Jan. 29-30, Wenzhou, China \hfill 
+\textbf{[Invited talk]}\\
+\item 
+\textbf{Persistent random walk: a phenomenological paradigm for cell migration} \hfill Sep. 2023\\\textbf{on solid substrates}\\  
+The 7th International Soft Matter Conference, ISMC2023, Sep. 4-8, Osaka, Japan \hfill 
+\href{https://ismc2023.jp/awards.html}{\textbf{[Best Poster Award]}}\\
+\item 
+\textbf{Curvature-promoted migration and alignment of cells inside microcylinders}  \hfill Nov. 2022 \\
+CPS Fall Meeting-2022, Nov. 17-20, Shenzhen, China, Virtual \\
+
+\item 
+\textbf{Persistent random walk: a phenomenological paradigm for cell migration on solid substrates} \hfill Oct. 2022 \\
+The 12th National Conference on Soft Matter and Biological Physics, Oct. 28-31, Wenzhou, China, Virtual \\
+
+\item 
+\textbf{Variational methods and deep learning-based methods for active matter physics }  \hfill Sep. 2022 \\
+EMBO Workshop: Physics of cells, Sep. 12-16, Ein Gedi, Israel, Virtual \hfill[Poster]\\
+
+\item 
+\textbf{Anisotropic cell migration on stiff cylinders}  \hfill Aug. 2021 \\
+The 6th National Conference of Statistical Physics and Complex Systems, Jul. 30-Aug. 2, Changchun, China, Virtual \\
+
+\item 
+\textbf{Isotropic-to-Anisotropic transition of cell migration on cylinders induced by} \hfill Jun. 2021\\\textbf{cell-scale curvatures }   \\
+EMBO Workshop: Physics of living systems, Jun. 07-10, Virtual \hfill[Poster]\\
+
+\item 
+\textbf{Curvotaxis of cells: Coarse-grained physical modeling }  \hfill Aug. 2019 \\
+Chinese Congress of Theoretical And Applied Mechanics, Aug. 25-28, Hangzhou, China \hfill[Poster]\\
+
+\item 
+\textbf{Phenomenological modeling of Curvotaxis of microdroplets and adherent cells}  \hfill Jul. 2019 \\
+The 5th National Conference of Statistical Physics and Complex Syetems, Jul. 26-29, Anhui, China \\
+\end{itemize}
+
+\vspace{-2em}
+
+\section*{OTHERS}
+\begin{itemize}[leftmargin=*]
+ \item Languages \hfill Mandarin (Native), English (Fluent)
+ \item Technical \hfill Mathematica, Python, Comosol, Fortran, Matlab, Gnuplot, LaTex, Microsoft Office
+ \end{itemize}
+\noindent
+\vspace{-2em}
+
+\section*{REFERENCES}
+\textbf{Prof. Xinpeng Xu}\\
+\textit{Associate Professor, Department of Physics, Guangdong Technion-Israel Institute of Technology, Guangdong,  China} \\
+\makebox[41em][l]
+{\textbf{Email: }\href{mailto:xu.xinpeng@gtiit.edu.cn}{xu.xinpeng@gtiit.edu.cn} \hfill \textbf{Scholar Profiles:} \href{https://www.gtiit.edu.cn/en/viewStaff.aspx?staffNo=12}{Home Page of Xinpeng Xu}}\\
+% \href{related link}{Google Scholar} | \href{https://www.linkedin.com/in/xxxxxxxx}{LinkedIn} 
+
+\noindent
+\textbf{Prof. Penger Tong}\\
+\textit{Chair Professor, Department of Physics,
+Hong Kong University of Science and Technology, Hong Kong }\\
+\makebox[41em][l]
+{\textbf{Email: }\href{mailto:penger@ust.hk}{penger@ust.hk}\hfill \textbf{Scholar Profiles:} \href{https://physics.ust.hk/eng/people_detail.php?pplcat=1&id=43}{Home Page of Penger Tong}} \\
+% \href{related link}{Google Scholar} | \href{https://www.linkedin.com/in/xxxxxxxx}{LinkedIn}\\ \\
+
+\noindent
+\textbf{Prof. Masao Doi}\\
+\textit{Chief Scientist, Wenzhou Institute, University of Chinese Academy of Science, China}\\
+\makebox[40em][l]
+{\textbf{Email: }\href{mailto:doi.masao.y3@a.mail.nagoya-u.ac.jp}{doi.masao.y3@a.mail.nagoya-u.ac.jp}\hfill \textbf{Scholar Profiles:} \href{https://www.wiucas.ac.cn/group/mdoi/}{Home Page of Masao Doi}} \\
+% | \href{related link}{Google Scholar} | \href{https://www.linkedin.com/in/xxxxxxxx}{LinkedIn}\\ \\
+
+
+\noindent
+\textbf{Prof. Tiezheng Qian}\\
+\textit{Professor, Department of Mathematics, The Hong Kong University of Science and Technology, Hongkong, China}\\
+\makebox[42em][l]
+{\textbf{Email: }\href{mailto:maqian@ust.hk}{maqian@ust.hk} \hfill \textbf{Scholar Profiles:} \href{https://facultyprofiles.hkust.edu.hk/profiles.php?profile=tiezheng-qian-maqian/}{Home Page of Tiezheng Qian}} \\
+%Scholar Profiles: \href{related link}{University of XXX - Personal Page} | \href{related link}{Google Scholar} | \href{https://www.linkedin.com/in/xxxxxxxx}{LinkedIn}
+
+\noindent
+\textbf{Prof. Dadong Yan}\\
+\textit{Professor, Department of Physics,
+Beijing Normal University, Beijing, China}\\
+\makebox[41em][l]
+{\textbf{Email: }\href{mailto:yandd@bnu.edu.cn}{yandd@bnu.edu.cn}\hfill \textbf{Scholar Profiles:} \href{https://physicsfaculty.bnu.edu.cn/Public/htm/news/5/1193.html}{Home Page of Dadong Yan}} \\
+%Scholar Profiles: \href{related link}{University of XXX - Personal Page} | \href{related link}{Google Scholar} | \href{https://www.linkedin.com/in/xxxxxxxx}{LinkedIn}\\ \\
+
+% \noindent
+
+% \section*{PERSONAL STATEMENT}
+% \begin{spacing}{1.2}
+% \indent
+
+% \large{Living matter physics is a fast-developing interdisciplinary field where physics concepts and methods are used to understand and predict the complex structure and dynamics of living systems. Living matter systems include biological systems at various length scales ranging from bioactive molecules, single cells, bacteria suspensions, animal tissues, fish schools, bird flocks, and people groups, etc. In this thesis, I aim to extend and apply the variational principles and variational methods developed in soft-matter physics to living-matter physics. Most relevant variational principles include the variational principle of minimum (restricted) free energy (MFEVP) for static problems, Onsager's variational principle (OVP), and Onsager-Machlup variational principle (OMVP) for dynamic problems.
+
+% \vspace{0.5em}
+% Specifically, I focus on the mechanical interactions between adherent cells and their surrounding matrix. For individual cells, I have explored the long-range force transmission in nonlinear elastic biopolymer gels and explained the slow decay of cell-induced displacements measured in experiments. Moreover, I have explored the matrix-mediated elastic cell-cell interactions. I have also proposed a modified persistent random walk model as a phenomenological paradigm to quantify directional cell migration under external stimuli in the complex microenvironment, such as haptotaxis for cells on substrates with fibronectin gradients, curvotaxis for cells on stiff microcylinders with cell-scale curvature, and durotaxis for cells on substrates with stiffness gradients. Notably, I found that cell migration within microcylinders is anisotropic and depends on curvature in a biphasic manner. At small curvatures, the cell migration anisotropy increases with increasing substrate curvatures, whereas, as the curvature increases over some threshold, cells detach from the surface, and the average speed and anisotropy both decrease sharply. We proposed a minimal phenomenological model for the biphasic curvotaxis based on the competition between random persistent migration and directional cell-substrate interactions by including dominant biophysical mechanisms: persistent random “noise”, active contractility and bending penalty of stress fibers, and cell-surface adhesion. 
+
+% \vspace{0.5em}
+% For multicellular assemblies, I have explored spontaneous bending and contraction of cell monolayer sheets and predicted that gravitaxis may play a significant role in tissue morphogenesis at length scales larger than 100 microns. I have also studied the regeneration of Hydra from tissue fragments. I have predicted that the equilibrium fragment shape is determined by anisotropy in contractility and elasticity. The spontaneous bending dynamics is governed by the frictional dissipation between layers inside tissue fragments. Furthermore, I have investigated the collective spreading dynamics of multicellular droplets on solid substrates. Two spreading scaling regimes have been identified in the two respective limits of negligible activity and strong activity.
+
+% \vspace{0.5em}
+% In addition, I have also proposed to combine the fundamental variational principles with machine learning methods to study living matter physics. Particularly, deep Ritz method and deep Onsager-Machlup method, which are based on variational principles (MFEVP and OMVP), and deep neural networks have been proposed for solving static and dynamic problems in living matter physics. The theoretical methods proposed based on variational principles and the phenomenological models constructed in this thesis for living matter systems at various length scales are expected to play long-term important roles in rationalizing and quantifying rich emergent structure and dynamic behaviors in living matter systems.}
+% \end{spacing}
+% % \begin{fontsize}{12pt}{24pt}
+% %  In addition, I have also proposed to combine the fundamental variational principles with machine learning methods of brute forces to study living matter physics. Particularly, deep Ritz method and deep Onsager-Machlup method that are based on variational principles (MFEVP and OMVP) and deep neural networks have been proposed for solving static and dynamic problems in living matter physics. The theoretical methods proposed based on variational principles and the phenomenological models constructed in this thesis for living matter systems at various length scales are expected to play long-term important roles in rationalizing and quantifying rich emergent structure and dynamic behaviors in living matter systems.   
+% % \end{fontsize}
+
+\end{document}
