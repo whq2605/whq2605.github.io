@@ -5,111 +5,126 @@
 # Field reference:
 #   title, authors, year, journal, volume, pages
 #   arxiv (ID only), doi, url, pdf (local path), code (URL)
-#   featured: true  -> shown on home page
-#   note: extra label (e.g. "in preparation", "accepted")
-#
-# Author markers: ** ** = bolded (you);  * = corresponding author;  + = equal contribution
+#   featured: true  → shown on home page
 
-- title: "Biphasic curvature-dependence of cell migration inside microcylinders: persistent randomness versus directionality"
-  authors: "X. Yu+ (Exp.), **Haiqin Wang**+ (Theory), F. Ye, X. Wang*, Q. Fan*, X. Xu*"
+- title: Magnesium ion doping for enhancing luminescence of lead-free manganese halide perovskites and their application in
+    LEDs
+  authors: Haiqi Wang, Jiejun Ren, Wanyi He, Lina Chen, Zhanhui Zhang
+  year: 2026
+  journal: Journal of Alloys and Compounds
+  doi: 10.1016/j.jallcom.2026.186895
+- title: 'Biphasic curvature-dependence of cell migration inside microcylinders: persistent randomness versus directionality'
+  authors: X. Yu+ (Exp.), **Haiqin Wang**+ (Theory), F. Ye, X. Wang*, Q. Fan*, X. Xu*
   year: 2025
-  journal: "Biophysical Journal"
-  volume: "124(23)"
-  pages: "4176-4188"
-  doi: "10.1016/j.bpj.2025.10.003"
-  url: "https://doi.org/10.1016/j.bpj.2025.10.003"
+  journal: Biophysical Journal
+  volume: 124(23)
+  pages: 4176-4188
+  doi: 10.1016/j.bpj.2025.10.003
+  url: https://doi.org/10.1016/j.bpj.2025.10.003
   featured: true
-
-- title: "Phenomenological modeling of persistent random cell migration: a mini-review"
-  authors: "**Haiqin Wang**+, Z. Shen+, X. Xu*"
+- title: 'Phenomenological modeling of persistent random cell migration: a mini-review'
+  authors: '**Haiqin Wang**+, Z. Shen+, X. Xu*'
   year: 2025
-  journal: "In preparation"
-  note: "in preparation"
-
-- title: "Elastic interactions compete with persistent cell motility to drive durotaxis"
-  authors: "S. Bose, **Haiqin Wang**, X. Xu*, A. Gopinath*, K. Dasbiswas*"
+  journal: In preparation
+  note: in preparation
+- title: Improving prediction of bacterial sRNA regulatory targets with expression data
+  authors: Yildiz Derinkok, Haiqi Wang, Brian Tjaden
+  year: 2025
+  journal: NAR Genomics and Bioinformatics
+  doi: 10.1093/nargab/lqaf055
+- title: Effects of near-field hydrodynamic interactions on bacterial dynamics near a solid surface.
+  authors: Baopi Liu, Lu Chen, Haiqi Wang
+  year: 2025
+  journal: Soft Matter
+  arxiv: '2508.17626'
+  doi: 10.1039/D5SM01103E
+- title: Elastic interactions compete with persistent cell motility to drive durotaxis
+  authors: S. Bose, **Haiqin Wang**, X. Xu*, A. Gopinath*, K. Dasbiswas*
   year: 2024
-  journal: "Biophysical Journal"
-  volume: "123(21)"
-  pages: "3721-3735"
-  doi: "10.1016/j.bpj.2024.09.021"
-  url: "https://doi.org/10.1016/j.bpj.2024.09.021"
-
-- title: "Active laminated-plate model for spontaneous bending of Hydra tissue fragments driven by supracellular actomyosin bundles"
-  authors: "J. Su+, **Haiqin Wang**+, Z. Yan, X. Xu*"
+  journal: Biophysical Journal
+  volume: 123(21)
+  pages: 3721-3735
+  doi: 10.1016/j.bpj.2024.09.021
+  url: https://doi.org/10.1016/j.bpj.2024.09.021
+- title: Active laminated-plate model for spontaneous bending of Hydra tissue fragments driven by supracellular actomyosin
+    bundles
+  authors: J. Su+, **Haiqin Wang**+, Z. Yan, X. Xu*
   year: 2023
-  journal: "Communications Physics"
-  volume: "6"
-  pages: "185"
-  arxiv: "2210.11696"
-  doi: "10.1038/s42005-023-01307-9"
-  url: "https://www.nature.com/articles/s42005-023-01307-9"
+  journal: Communications Physics
+  volume: '6'
+  pages: '185'
+  arxiv: '2210.11696'
+  doi: 10.1038/s42005-023-01307-9
+  url: https://www.nature.com/articles/s42005-023-01307-9
   featured: true
-
-- title: "Activity-assisted barrier-crossing of self-propelled colloids over parallel microgrooves"
-  authors: "Y. Wen+, Z. Li+, **Haiqin Wang**, J. Zheng, J. Tang, P. Lai*, X. Xu*, P. Tong*"
+- title: Activity-assisted barrier-crossing of self-propelled colloids over parallel microgrooves
+  authors: Y. Wen+, Z. Li+, **Haiqin Wang**, J. Zheng, J. Tang, P. Lai*, X. Xu*, P. Tong*
   year: 2023
-  journal: "Physical Review E"
-  volume: "107"
-  pages: "L032601"
-  doi: "10.1103/PhysRevE.107.L032601"
-  url: "https://doi.org/10.1103/PhysRevE.107.L032601"
-
-- title: "Deep learning-based computational method for soft matter dynamics: Deep Onsager-Machlup method"
-  authors: "Z. Li+, B. Zou+, **Haiqin Wang**, J. Su, D. Wang*, X. Xu*"
+  journal: Physical Review E
+  volume: '107'
+  pages: L032601
+  doi: 10.1103/PhysRevE.107.L032601
+  url: https://doi.org/10.1103/PhysRevE.107.L032601
+- title: 'Deep learning-based computational method for soft matter dynamics: Deep Onsager-Machlup method'
+  authors: Z. Li+, B. Zou+, **Haiqin Wang**, J. Su, D. Wang*, X. Xu*
   year: 2023
-  journal: "Communications in Computational Physics (accepted)"
-  arxiv: "2308.14513"
-  doi: "10.48550/arXiv.2308.14513"
-  url: "https://arxiv.org/abs/2308.14513"
-  note: "accepted"
-
-- title: "Variational methods and deep Ritz method for active elastic solids"
-  authors: "**Haiqin Wang**, B. Zou, J. Su, D. Wang, X. Xu*"
+  journal: Communications in Computational Physics (accepted)
+  arxiv: '2308.14513'
+  doi: 10.48550/arXiv.2308.14513
+  url: https://arxiv.org/abs/2308.14513
+  note: accepted
+- title: Variational methods and deep Ritz method for active elastic solids
+  authors: '**Haiqin Wang**, B. Zou, J. Su, D. Wang, X. Xu*'
   year: 2022
-  journal: "Soft Matter"
-  volume: "18"
-  pages: "6015-6031"
-  doi: "10.1039/D2SM00404F"
-  url: "https://doi.org/10.1039/D2SM00404F"
-
-- title: "Variational approximation methods for long-range force transmission in biopolymer gels"
-  authors: "**Haiqin Wang**, X. Xu*"
+  journal: Soft Matter
+  volume: '18'
+  pages: 6015-6031
+  doi: 10.1039/D2SM00404F
+  url: https://doi.org/10.1039/D2SM00404F
+- title: Variational approximation methods for long-range force transmission in biopolymer gels
+  authors: '**Haiqin Wang**, X. Xu*'
   year: 2022
-  journal: "Chinese Physics B"
-  volume: "31(10)"
-  pages: "104602"
-  doi: "10.1088/1674-1056/ac720a"
-  url: "https://doi.org/10.1088/1674-1056/ac720a"
-
-- title: "Onsager's variational principle in active soft matter"
-  authors: "**Haiqin Wang**, T. Qian, X. Xu*"
+  journal: Chinese Physics B
+  volume: 31(10)
+  pages: '104602'
+  doi: 10.1088/1674-1056/ac720a
+  url: https://doi.org/10.1088/1674-1056/ac720a
+- title: Onsager's variational principle in active soft matter
+  authors: '**Haiqin Wang**, T. Qian, X. Xu*'
   year: 2021
-  journal: "Soft Matter"
-  volume: "17"
-  pages: "3634-3653"
-  doi: "10.1039/D0SM02076A"
-  url: "https://doi.org/10.1039/D0SM02076A"
+  journal: Soft Matter
+  volume: '17'
+  pages: 3634-3653
+  doi: 10.1039/D0SM02076A
+  url: https://doi.org/10.1039/D0SM02076A
   featured: true
-
-- title: "Continuum elastic models for force transmission in biopolymer gels"
-  authors: "**Haiqin Wang**, X. Xu*"
+- title: Continuum elastic models for force transmission in biopolymer gels
+  authors: '**Haiqin Wang**, X. Xu*'
   year: 2020
-  journal: "Soft Matter"
-  volume: "16"
-  pages: "10781-10808"
-  doi: "10.1039/D0SM01451F"
-  url: "https://doi.org/10.1039/D0SM01451F"
-
-- title: "A phenomenological approach to the deposition pattern of evaporating droplets with contact line pinning"
-  authors: "**Haiqin Wang**, D. Yan, T. Qian*"
+  journal: Soft Matter
+  volume: '16'
+  pages: 10781-10808
+  doi: 10.1039/D0SM01451F
+  url: https://doi.org/10.1039/D0SM01451F
+- title: Ultra-Sensitive Refractive Index Sensors Based on Bloch Surface Waves With Transition Metal Dichalcogenides
+  authors: Shuaiwen Gan, Haiqi Wang, Junwu Liang, X. Dai, Y. Xiang
+  year: 2019
+  journal: IEEE Sensors Journal
+  doi: 10.1109/JSEN.2019.2922966
+- title: A phenomenological approach to the deposition pattern of evaporating droplets with contact line pinning
+  authors: '**Haiqin Wang**, D. Yan, T. Qian*'
   year: 2018
-  journal: "Journal of Physics: Condensed Matter"
-  volume: "30"
-  pages: "435001"
-  doi: "10.1088/1361-648X/aae1dc"
-  url: "https://doi.org/10.1088/1361-648X/aae1dc"
-
-# -- Add more papers above this line --
-# The GitHub Action (update-papers.yml) appends newly found papers from
-# Google Scholar; manually added papers and their extra fields are preserved.
+  journal: 'Journal of Physics: Condensed Matter'
+  volume: '30'
+  pages: '435001'
+  doi: 10.1088/1361-648X/aae1dc
+  url: https://doi.org/10.1088/1361-648X/aae1dc
+- title: Towards understanding the differences of using 3D auditory feedback in virtual environments between people with and
+    without visual impairments
+  authors: Miao Dong, Haiqi Wang, Rongkai Guo
+  year: 2017
+  journal: 2017 IEEE 3rd VR Workshop on Sonic Interactions for Virtual Environments (SIVE)
+  doi: 10.1109/SIVE.2017.7901608
+- title: Boronic acid-assisted site-selective functionalization and transformation of monosaccharides
+  authors: Haiqi Wang
+  doi: 10.32657/10356/205149
