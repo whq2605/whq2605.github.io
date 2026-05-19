@@ -22,6 +22,10 @@ log = logging.getLogger(__name__)
 SCHOLAR_ID = os.environ.get("SCHOLAR_ID", "WXsYVfsAAAAJ")
 PUBLICATIONS_FILE = "_data/publications.yml"
 AUTHOR_NAME = "Haiqin Wang"
+# Author-name guard: a Scholar entry is only accepted if one of these tokens
+# appears in its author list. Using "Haiqin" (not bare "Wang" or "H Wang") so
+# that papers by other authors named "Haiqi Wang" / "H. Wang" are rejected.
+AUTHOR_NAME_TOKENS = ("Haiqin Wang", "Haiqin W", "H. Wang, X. Xu", "Wang, Haiqin")
 
 
 def load_existing_publications():
@@ -80,9 +84,19 @@ def fetch_from_scholar():
                 elif eprint:
                     arxiv_id = eprint
 
+                author_str = bib.get("author", "")
+                # Guard: reject papers where the author list does not contain
+                # one of the AUTHOR_NAME_TOKENS. Google Scholar profiles can
+                # occasionally include papers by similarly-named authors.
+                if not any(tok in author_str for tok in AUTHOR_NAME_TOKENS):
+                    log.warning(
+                        f"  - Skipped (author guard): {bib.get('title','')[:70]}"
+                    )
+                    continue
+
                 paper = {
                     "title": bib.get("title", "").strip(),
-                    "authors": bib.get("author", "").replace(
+                    "authors": author_str.replace(
                         AUTHOR_NAME, f"**{AUTHOR_NAME}**"
                     ),
                     "year": int(bib["pub_year"]) if bib.get("pub_year") else None,
@@ -107,58 +121,6 @@ def fetch_from_scholar():
 
     except Exception as e:
         log.error(f"scholarly fetch failed: {e}")
-        return []
-
-
-def fetch_from_semantic_scholar():
-    """Fallback: fetch from Semantic Scholar API (no rate limits for reasonable use)."""
-    import requests
-
-    log.info("Trying Semantic Scholar API as fallback...")
-    url = "https://api.semanticscholar.org/graph/v1/author/search"
-    params = {
-        "query": AUTHOR_NAME,
-        "fields": "name,papers.title,papers.year,papers.authors,papers.venue,"
-                  "papers.externalIds,papers.publicationTypes",
-        "limit": 5,
-    }
-    try:
-        r = requests.get(url, params=params, timeout=30)
-        r.raise_for_status()
-        results = r.json().get("data", [])
-
-        # Pick the best match (first result with papers)
-        author_data = None
-        for res in results:
-            if res.get("papers"):
-                author_data = res
-                break
-
-        if not author_data:
-            log.warning("No matching author found on Semantic Scholar")
-            return []
-
-        papers = []
-        for pub in author_data.get("papers", []):
-            ext_ids = pub.get("externalIds", {})
-            paper = {
-                "title": pub.get("title", "").strip(),
-                "authors": ", ".join(
-                    f"**{a['name']}**" if AUTHOR_NAME.lower() in a["name"].lower() else a["name"]
-                    for a in pub.get("authors", [])
-                ),
-                "year": pub.get("year"),
-                "journal": pub.get("venue", ""),
-                "arxiv": ext_ids.get("ArXiv", ""),
-                "doi": ext_ids.get("DOI", ""),
-            }
-            paper = {k: v for k, v in paper.items() if v not in ("", None)}
-            papers.append(paper)
-
-        log.info(f"Fetched {len(papers)} papers from Semantic Scholar")
-        return papers
-    except Exception as e:
-        log.error(f"Semantic Scholar fetch failed: {e}")
         return []
 
 
@@ -210,11 +172,9 @@ def main():
     log.info(f"Loaded {len(existing)} existing publications")
 
     fetched = fetch_from_scholar()
-    if not fetched:
-        fetched = fetch_from_semantic_scholar()
 
     if not fetched:
-        log.warning("Could not fetch any publications. Keeping existing file unchanged.")
+        log.warning("Could not fetch any publications from Google Scholar. Keeping existing file unchanged.")
         sys.exit(0)
 
     merged = merge_publications(existing, fetched)

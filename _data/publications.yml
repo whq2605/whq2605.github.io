@@ -7,12 +7,6 @@
 #   arxiv (ID only), doi, url, pdf (local path), code (URL)
 #   featured: true  → shown on home page
 
-- title: Magnesium ion doping for enhancing luminescence of lead-free manganese halide perovskites and their application in
-    LEDs
-  authors: Haiqi Wang, Jiejun Ren, Wanyi He, Lina Chen, Zhanhui Zhang
-  year: 2026
-  journal: Journal of Alloys and Compounds
-  doi: 10.1016/j.jallcom.2026.186895
 - title: 'Biphasic curvature-dependence of cell migration inside microcylinders: persistent randomness versus directionality'
   authors: X. Yu+ (Exp.), **Haiqin Wang**+ (Theory), F. Ye, X. Wang*, Q. Fan*, X. Xu*
   year: 2025
@@ -27,17 +21,13 @@
   year: 2025
   journal: In preparation
   note: in preparation
-- title: Improving prediction of bacterial sRNA regulatory targets with expression data
-  authors: Yildiz Derinkok, Haiqi Wang, Brian Tjaden
+- title: Ratchet effect of self-propelled colloids in an asymmetric periodic potential
+  authors: Y. Wen, Z. Li, **Haiqin Wang**, J. Zheng, J. Tang, X. Xu*, P.-Y. Lai*, P. Tong*
   year: 2025
-  journal: NAR Genomics and Bioinformatics
-  doi: 10.1093/nargab/lqaf055
-- title: Effects of near-field hydrodynamic interactions on bacterial dynamics near a solid surface.
-  authors: Baopi Liu, Lu Chen, Haiqi Wang
-  year: 2025
-  journal: Soft Matter
-  arxiv: '2508.17626'
-  doi: 10.1039/D5SM01103E
+  journal: The Journal of Chemical Physics
+  volume: 162(20)
+  doi: 10.1063/5.0265141
+  url: https://doi.org/10.1063/5.0265141
 - title: Elastic interactions compete with persistent cell motility to drive durotaxis
   authors: S. Bose, **Haiqin Wang**, X. Xu*, A. Gopinath*, K. Dasbiswas*
   year: 2024
@@ -106,11 +96,6 @@
   pages: 10781-10808
   doi: 10.1039/D0SM01451F
   url: https://doi.org/10.1039/D0SM01451F
-- title: Ultra-Sensitive Refractive Index Sensors Based on Bloch Surface Waves With Transition Metal Dichalcogenides
-  authors: Shuaiwen Gan, Haiqi Wang, Junwu Liang, X. Dai, Y. Xiang
-  year: 2019
-  journal: IEEE Sensors Journal
-  doi: 10.1109/JSEN.2019.2922966
 - title: A phenomenological approach to the deposition pattern of evaporating droplets with contact line pinning
   authors: '**Haiqin Wang**, D. Yan, T. Qian*'
   year: 2018
@@ -119,12 +104,3 @@
   pages: '435001'
   doi: 10.1088/1361-648X/aae1dc
   url: https://doi.org/10.1088/1361-648X/aae1dc
-- title: Towards understanding the differences of using 3D auditory feedback in virtual environments between people with and
-    without visual impairments
-  authors: Miao Dong, Haiqi Wang, Rongkai Guo
-  year: 2017
-  journal: 2017 IEEE 3rd VR Workshop on Sonic Interactions for Virtual Environments (SIVE)
-  doi: 10.1109/SIVE.2017.7901608
-- title: Boronic acid-assisted site-selective functionalization and transformation of monosaccharides
-  authors: Haiqi Wang
-  doi: 10.32657/10356/205149
