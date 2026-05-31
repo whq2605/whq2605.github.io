@@ -28,6 +28,15 @@
   volume: 162(20)
   doi: 10.1063/5.0265141
   url: https://doi.org/10.1063/5.0265141
+- title: 'Biphasic curvature dependence of cell migration: Persistent randomness versus directionality'
+  authors: Xiaoyu Yu and **Haiqin Wang** and Mingxi Xie and Fangfu Ye and Zhiqi Shen and Xiaochen Wang and Qihui Fan and Xinpeng
+    Xu
+  year: 2025
+  journal: Biophysical Journal
+  volume: '124'
+  pages: 4176-4188
+  url: https://www.cell.com/biophysj/abstract/S0006-3495(25)00654-X
+  citations: 0
 - title: Elastic interactions compete with persistent cell motility to drive durotaxis
   authors: S. Bose, **Haiqin Wang**, X. Xu*, A. Gopinath*, K. Dasbiswas*
   year: 2024
@@ -63,6 +72,15 @@
   doi: 10.48550/arXiv.2308.14513
   url: https://arxiv.org/abs/2308.14513
   note: accepted
+- title: Activity-assisted barrier crossing of self-propelled colloids over parallel microgrooves
+  authors: Yan Wen and Zhihao Li and **Haiqin Wang** and Jing Zheng and Jinyao Tang and Pik-Yin Lai and Xinpeng Xu and Penger
+    Tong
+  year: 2023
+  journal: Physical Review E
+  volume: '107'
+  pages: L032601
+  url: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.107.L032601
+  citations: 7
 - title: Variational methods and deep Ritz method for active elastic solids
   authors: '**Haiqin Wang**, B. Zou, J. Su, D. Wang, X. Xu*'
   year: 2022
